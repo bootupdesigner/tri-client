@@ -28,7 +28,7 @@ export default function Home() {
         {/* list of services we provide */}
         <section>
           <h3 style={{textAlign:'center',}}>Services We Offer</h3>
-          <ServiceDescription variant="scroll" />
+          <ServiceDescription limit={4} />
         </section>
 
         {/* meet Renee Section */}

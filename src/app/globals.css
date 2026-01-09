@@ -148,18 +148,3 @@ ul.main-menu a:hover {
   color: #000000;
 }
 
-/* Hide scrollbar but keep scrolling */
-.hide-scrollbar {
-  overflow-x: auto;
-  overflow-y: hidden;
-
-  /* Firefox */
-  scrollbar-width: none;
-
-  /* IE / Edge */
-  -ms-overflow-style: none;
-}
-
-.hide-scrollbar::-webkit-scrollbar {
-  display: none; /* Chrome, Safari */
-}
