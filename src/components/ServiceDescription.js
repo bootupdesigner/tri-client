@@ -18,7 +18,7 @@ const ServiceDescription = ({ limit }) => {
 
   return (
     <div
-      className="container"
+      className="container my-3"
       style={{
         display: "flex",
         flexDirection: "row",

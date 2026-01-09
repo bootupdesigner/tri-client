@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import SocialLinks from './SocialLinks'
 
 function Footer() {
     return (
@@ -32,6 +33,7 @@ function Footer() {
 
             <div className='footerNav'>
                 <h3>Stay Connected</h3>
+                <SocialLinks />
             </div>
         </footer>
     )

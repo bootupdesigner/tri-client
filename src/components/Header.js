@@ -4,20 +4,61 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import { useMediaQuery } from 'react-responsive';
 import { Nav, Navbar, Offcanvas } from 'react-bootstrap';
-import MenuIcon from '@mui/icons-material/Menu';
 
 import Logo from '../../public/images/tri-logo.png';
+
+import { IconContext } from 'react-icons';
+
+import { MdEmail, MdLocalPhone } from "react-icons/md";
+
 function Header() {
     const isBigScreen = useMediaQuery({ minWidth: 1224 });
 
     const [show, setShow] = useState(false);
 
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
-
-
     return (
         <div>
+            {/* phone call and email section with black background and white letters */}
+            <div
+                style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    justifyContent: "center", 
+                    alignItems: "center",
+                    gap: 24, 
+                }}
+            >
+                <a
+                    href="mailto:trifinancialservices@gmail.com"
+                    style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: 6,
+                        textDecoration: "none",
+                        color: "#800000",
+                        fontSize: 20,
+                    }}
+                >
+                    <MdEmail />
+                    Email
+                </a>
+
+                <a
+                    href="tel:+14108804680"
+                    style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: 6,
+                        textDecoration: "none",
+                        color: "#800000",
+                        fontSize: 20,
+                    }}
+                >
+                    <MdLocalPhone />
+                    Call
+                </a>
+            </div>
+
             <div style={{
                 display: 'flex',
                 flexDirection: 'row',
@@ -27,6 +68,7 @@ function Header() {
                 <a href='/'>
                     <Image className='logo' src={Logo} alt="TRI Financial Services" /></a>
                 {isBigScreen ? (
+
                     <ul className='main-menu'>
                         <li style={{ display: "inline-block" }} className='px-3'><a href="/">TRI Financial Services</a></li>
                         <li style={{ display: "inline-block" }} className='px-3'><a href="/about-tri">About TRI</a></li>
