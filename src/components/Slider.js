@@ -43,7 +43,7 @@ function Slider() {
 
                             <Button
                                 as={Link}
-                                href={`/services/${lifeInsurance.id}`}
+                                href={`/service/${lifeInsurance.id}`}
                                 variant="primary"
                             >
                                 Learn More About {lifeInsurance.serviceName}
@@ -72,7 +72,7 @@ function Slider() {
 
                             <Button
                                 as={Link}
-                                href={`/services/${rollOvers.id}`}
+                                href={`/service/${rollOvers.id}`}
                                 variant="primary"
                             >
                                 Learn More About {rollOvers.serviceName}
@@ -101,7 +101,7 @@ function Slider() {
 
                             <Button
                                 as={Link}
-                                href={`/services/${retirementPlanning.id}`}
+                                href={`/service/${retirementPlanning.id}`}
                                 variant="primary"
                             >
                                 Learn More About {retirementPlanning.serviceName}

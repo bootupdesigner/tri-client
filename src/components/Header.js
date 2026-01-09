@@ -25,7 +25,7 @@ function Header() {
                 alignItems: 'center',
             }}>
                 <a href='/'>
-                <Image className='logo' src={Logo} alt="TRI Financial Services" /></a>
+                    <Image className='logo' src={Logo} alt="TRI Financial Services" /></a>
                 {isBigScreen ? (
                     <ul className='main-menu'>
                         <li style={{ display: "inline-block" }} className='px-3'><a href="/">TRI Financial Services</a></li>

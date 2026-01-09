@@ -3,6 +3,7 @@
 import Books from "@/components/Books";
 import Form from "@/components/Form";
 import Renee from "@/components/Renee";
+import ServiceDescription from "@/components/ServiceDescription";
 import Slider from "@/components/Slider";
 import React from "react";
 export default function Home() {
@@ -22,6 +23,12 @@ export default function Home() {
         <section className="container">
           <h3 style={{ color: '#800000' }}>Plan Your Financial Future</h3>
           <p style={{ fontSize: 18 }}>Enroll in Medicare or change plan today! Contact Renee to learn about better life insurance policies. We’re Ready to answer any questions you may have about your 401K Rollover. Call Renee Today!</p>
+        </section>
+
+        {/* list of services we provide */}
+        <section>
+          <h3 style={{textAlign:'center',}}>Services We Offer</h3>
+          <ServiceDescription variant="scroll" />
         </section>
 
         {/* meet Renee Section */}
