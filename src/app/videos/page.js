@@ -55,7 +55,7 @@ export default function VideosPage() {
                     return (
                         <div key={videoId} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: 300, }}>
 
-                            <h3 style={{ textAlign: 'center', }} title={blog?.snippet?.title}>
+                            <h3 style={{ textAlign: 'center', color:'#800000',}} title={blog?.snippet?.title}>
                                 {blog?.snippet?.title}
                             </h3>
 
@@ -114,6 +114,15 @@ function YouTubeEmbed({ videoId, playing, onPlay }) {
 }
 
 const styles = {
+    followLink:{
+        textDecoration:'none',
+        color:'#800000',
+        fontSize:22,
+        display:'flex',
+        flexDirection:'row',
+        justifyContent:'center',
+        alignItems:'center',
+    },
     card: {
         width: 315,
         minWidth: 315,

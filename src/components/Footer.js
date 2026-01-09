@@ -9,13 +9,13 @@ function Footer() {
 
             <div className='footerNav'>
                 <h3>Quick Links</h3>
-                <span><Link href="/">TRI</Link></span>
+                <span><Link href="/">TRI Financial Services</Link></span>
                 <span><Link href="/about-tri">About TRI</Link></span>
-                <span><Link href="/#services">Services</Link></span>
-                <span><Link href="/#books">Books</Link></span>
+                <span><Link href="/services">Services</Link></span>
                 <span><Link href="/videos">Videos</Link></span>
-                <span><a href="https://reneeilesanmi.myhomehq.biz/newsletters" target='_blank'>Newsletter</a></span>
-                <span><Link href="/contact-us">Contact Us</Link></span>
+                <span><Link href="https://reneeilesanmi.myhomehq.biz/newsletters" target='_blank'>Newsletter</Link></span>
+                <span><Link href="/contact-tri">Contact Us</Link></span>
+                <span><Link href="/join-our-team">Join Our Team</Link></span>
             </div>
 
             {/* hours and location nav */}
