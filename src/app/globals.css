@@ -40,3 +40,110 @@ a {
     color-scheme: dark;
   }
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .logo {
+    height: 100;
+    width: auto;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .logo {
+    height: 150px;
+    width: auto;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .logo {
+    height: 150px;
+    width: auto;
+  }
+  .meet-renee {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .logo {
+    height: 150px;
+    width: auto;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .logo {
+    height: 150px;
+    width: auto;
+  }
+}
+
+/* footer styling for coluns and links */
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footerNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 10px;
+}
+
+.footerNav span {
+  padding: 3px 0;
+}
+
+.footerNav span a {
+  color: white;
+  text-decoration: none;
+}
+
+.footerNav span a:hover {
+  color: #800000;
+}
+
+/* header menu styling */
+
+ul.mobile-menu li {
+  list-style: none;
+  color: #800000;
+  font-size: 18px;
+  padding: 5px 0;
+}
+
+ul.mobile-menu a {
+  text-decoration: none;
+  color: #800000;
+}
+
+ul.mobile-menu a:hover {
+  color: black;
+}
+
+ul.main-menu li {
+  font-size: 18px;
+}
+
+ul.main-menu a {
+  text-decoration: none;
+  color: #800000;
+}
+
+ul.main-menu a:hover {
+  color: #000000;
+}
