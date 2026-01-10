@@ -33,14 +33,14 @@ const ServiceDescription = ({ limit }) => {
           style={{
             display: "flex",
             flexDirection: "column",
-            width: 400,
+            width: 500,
           }}
         >
           <Link
             href={`/service/${service.id}`}
             style={{ textDecoration: "none", color: "inherit" }}
           >
-            <h3 style={{ textAlign: "center" }}>
+            <h3 style={{color:"#800000", textAlign: "center" }}>
               {service.serviceName}
             </h3>
 
