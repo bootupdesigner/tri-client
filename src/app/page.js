@@ -22,7 +22,12 @@ export default function Home() {
 
         <section className="container">
           <h3 style={{ color: '#800000' }}>Plan Your Financial Future</h3>
-          <p style={{ fontSize: 18 }}>Enroll in Medicare or change plan today! Contact Renee to learn about better life insurance policies. We’re Ready to answer any questions you may have about your 401K Rollover. Call Renee Today!</p>
+          <p style={{ fontSize: 18 }}>Start planning for your families future and retirement. Contact Renee to learn about better life insurance policies, annuities, 401K rollovers anad more. We’re ready to answer any questions you may have about your financial goals. Call Renee Today!</p>
+        </section>
+
+         {/* meet Renee Section */}
+        <section >
+          <Renee />
         </section>
 
         {/* list of services we provide */}
@@ -31,11 +36,6 @@ export default function Home() {
           style={{textDecoration:'none', color:'#000000',}}
           href="/services">Services We Offer</a></h3>
           <ServiceDescription limit={4} />
-        </section>
-
-        {/* meet Renee Section */}
-        <section >
-          <Renee />
         </section>
 
         {/* information contact form */}

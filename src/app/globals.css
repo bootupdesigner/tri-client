@@ -148,3 +148,12 @@ ul.main-menu a:hover {
   color: #000000;
 }
 
+/* header slider styling */
+
+.position-static {
+  margin: auto;
+}
+
+div.contact-icons a:hover {
+  color: black;
+}

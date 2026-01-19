@@ -136,19 +136,84 @@ export const triServices = [
         ]
     },
     {
-        id: 'disability-insurance',
-        serviceName: `Disability Insurance`,
-        prevImg: 'https://res.cloudinary.com/daj06anmm/image/upload/v1708901215/disabiltyPrev_t4iafv.jpg',
-        image: 'https://res.cloudinary.com/daj06anmm/image/upload/v1708909419/disability_jxtmii.jpg',
+        id: 'retirement-planning',
+        serviceName: `Retirement Planning`,
+        prevImg: 'https://res.cloudinary.com/daj06anmm/image/upload/v1709347403/for-reading-813666_1280_jkoasp.jpg',
+        image: `https://res.cloudinary.com/daj06anmm/image/upload/v1709347409/walk-on-the-beach_qbb0ai.jpg`,
         blog: [
             {
                 id: '1',
                 summary: [
                     {
-                        paragraph: [`How long can you financially survive without a paycheck? If you get sick and can’t work, how will you pay the mortgage or rent, gas, electric and groceries? Disability income protection allows you to safeguard one of your most valuable assets – being able to earn an income – and should be an integral part of your financial portfolio. Let’s make sure that if the unexpected happens, you can still provide for yourself and your family. Click here to schedule a complimentary consultation. Schedule a complimentary consultation today.`],
-                    },
-                ]
+                        paragraph: [
+                            `How do you plan to spend your golden years? Do you see yourself going on exotic vacations, volunteering, taking care of the grandchildren and living life on your own terms? People are living longer and healthier lives, pension plans are a thing of the past, and social security is going broke. Retirement planning is all about looking at your lifestyle and adjusting your current finances and investments to accomplish your goals and objectives for a comfortable future.`,
+
+                            `TRI Financial Services can help you put a plan in place that will help prepare you for a more secure financial future. Schedule an appointment today so we can help you get on the path to a secure retirement. Click here to schedule a complimentary consultation. Schedule a complimentary consultation today.`,
+                        ]
+                    }
+                ],
+            }
+        ]
+    },
+    {
+        id: 'annuities',
+        serviceName: `annuities`,
+        prevImg: 'https://res.cloudinary.com/daj06anmm/image/upload/v1709347403/money-1428594_640_pzrubi.jpg',
+        image: 'https://res.cloudinary.com/daj06anmm/image/upload/v1709347403/how-to-save-money-when-you-travel-in-retirement_jhj9dr.jpg',
+        blog: [
+            {
+                id: '1',
+                summary: [
+                    {
+                        paragraph: [
+                            `Are you looking for a safe place to accumulate money or roll over your 401k? Annuities are a long-term retirement vehicle offered by insurance companies. The earnings are tax-deferred until they are distributed, and are taxed as ordinary income. People purchase annuities to supplement retirement income they will receive from Social Security, pension benefits, investments and other sources. The wonderful thing about annuities is that they provide a steady stream of income that you cannot outlive. And more important, they provide safety so that you won’t lose any money. We offer both traditional and index annuities. All our annuity carriers are well established and have been in business for a long time. Partnering with solid companies helps our clients gain the peace of mind they need to ensure that their money is growing safely.`
+                        ]
+                    }
+                ],
             },
+            {
+                id: '2',
+                subHeading: `Fixed Annuities`,
+                summary: [
+                    {
+                        paragraph: [
+                            `With fixed annuities, premiums accumulate at rates of interest set by the company, and the amount of each annuity payment is determined when payments begin. The insurance company issuing the annuity guarantees the principal less any withdrawals or surrenders.`
+                        ]
+                    }
+                ],
+            },
+            {
+                id: '3',
+                subHeading: `Indexed Annuities`,
+                summary: [
+                    {
+                        paragraph: [
+                            `An Indexed Annuity is usually a fixed (i.e., not a variable) annuity with alternate methods of determining and crediting interest. While traditional fixed annuities typically declare interest in advance for premium payments based on the performance of the company’s underlying investments for those premiums, an IA’s interest is determined, at least in part, by the performance of a specified index of marketplace performance (frequently the S&P 500 Index® or Russell 2000®) over a stated period.`,
+
+                            `To learn more about our annuities, please schedule an appointment today.`
+                        ]
+                    }
+                ],
+            },
+        ]
+    },
+    {
+        id: 'college-planning',
+        serviceName: `College Planning`,
+        prevImg: 'https://res.cloudinary.com/daj06anmm/image/upload/v1709347403/mother-3364467_640_mss4p3.jpg',
+        image: 'https://res.cloudinary.com/daj06anmm/image/upload/v1709347404/Science-Class_ykdwa6.jpg',
+        blog: [
+            {
+                id: '1',
+                subHeading: `Planning to Send Your Kids to College?`,
+                summary: [
+                    {
+                        paragraph: [
+                            `There are several things to consider. You’ll want to consider your children’s ages, the state where they will attend school, the percent you’re willing or able to fund, the potential impact of early withdrawal penalties, taxes, and so much more. There are so many tools and resources to help you make the best decisions about how you’ll finance your children’s college education. We’ll get you connected to the source—today. Schedule a complimentary consultation today.`
+                        ]
+                    }
+                ],
+            }
         ]
     },
     {
@@ -228,87 +293,6 @@ export const triServices = [
                     }
                 ],
             }
-        ]
-    },
-    {
-        id: 'retirement-planning',
-        serviceName: `Retirement Planning`,
-        prevImg: 'https://res.cloudinary.com/daj06anmm/image/upload/v1709347403/for-reading-813666_1280_jkoasp.jpg',
-        image: `https://res.cloudinary.com/daj06anmm/image/upload/v1709347409/walk-on-the-beach_qbb0ai.jpg`,
-        blog: [
-            {
-                id: '1',
-                summary: [
-                    {
-                        paragraph: [
-                            `How do you plan to spend your golden years? Do you see yourself going on exotic vacations, volunteering, taking care of the grandchildren and living life on your own terms? People are living longer and healthier lives, pension plans are a thing of the past, and social security is going broke. Retirement planning is all about looking at your lifestyle and adjusting your current finances and investments to accomplish your goals and objectives for a comfortable future.`,
-
-                            `TRI Financial Services can help you put a plan in place that will help prepare you for a more secure financial future. Schedule an appointment today so we can help you get on the path to a secure retirement. Click here to schedule a complimentary consultation. Schedule a complimentary consultation today.`,
-                        ]
-                    }
-                ],
-            }
-        ]
-    },
-    {
-        id: 'college-planning',
-        serviceName: `College Planning`,
-        prevImg: 'https://res.cloudinary.com/daj06anmm/image/upload/v1709347403/mother-3364467_640_mss4p3.jpg',
-        image: 'https://res.cloudinary.com/daj06anmm/image/upload/v1709347404/Science-Class_ykdwa6.jpg',
-        blog: [
-            {
-                id: '1',
-                subHeading: `Planning to Send Your Kids to College?`,
-                summary: [
-                    {
-                        paragraph: [
-                            `There are several things to consider. You’ll want to consider your children’s ages, the state where they will attend school, the percent you’re willing or able to fund, the potential impact of early withdrawal penalties, taxes, and so much more. There are so many tools and resources to help you make the best decisions about how you’ll finance your children’s college education. We’ll get you connected to the source—today. Schedule a complimentary consultation today.`
-                        ]
-                    }
-                ],
-            }
-        ]
-    },
-    {
-        id: 'annuities',
-        serviceName: `annuities`,
-        prevImg: 'https://res.cloudinary.com/daj06anmm/image/upload/v1709347403/money-1428594_640_pzrubi.jpg',
-        image: 'https://res.cloudinary.com/daj06anmm/image/upload/v1709347403/how-to-save-money-when-you-travel-in-retirement_jhj9dr.jpg',
-        blog: [
-            {
-                id: '1',
-                summary: [
-                    {
-                        paragraph: [
-                            `Are you looking for a safe place to accumulate money or roll over your 401k? Annuities are a long-term retirement vehicle offered by insurance companies. The earnings are tax-deferred until they are distributed, and are taxed as ordinary income. People purchase annuities to supplement retirement income they will receive from Social Security, pension benefits, investments and other sources. The wonderful thing about annuities is that they provide a steady stream of income that you cannot outlive. And more important, they provide safety so that you won’t lose any money. We offer both traditional and index annuities. All our annuity carriers are well established and have been in business for a long time. Partnering with solid companies helps our clients gain the peace of mind they need to ensure that their money is growing safely.`
-                        ]
-                    }
-                ],
-            },
-            {
-                id: '2',
-                subHeading: `Fixed Annuities`,
-                summary: [
-                    {
-                        paragraph: [
-                            `With fixed annuities, premiums accumulate at rates of interest set by the company, and the amount of each annuity payment is determined when payments begin. The insurance company issuing the annuity guarantees the principal less any withdrawals or surrenders.`
-                        ]
-                    }
-                ],
-            },
-            {
-                id: '3',
-                subHeading: `Indexed Annuities`,
-                summary: [
-                    {
-                        paragraph: [
-                            `An Indexed Annuity is usually a fixed (i.e., not a variable) annuity with alternate methods of determining and crediting interest. While traditional fixed annuities typically declare interest in advance for premium payments based on the performance of the company’s underlying investments for those premiums, an IA’s interest is determined, at least in part, by the performance of a specified index of marketplace performance (frequently the S&P 500 Index® or Russell 2000®) over a stated period.`,
-
-                            `To learn more about our annuities, please schedule an appointment today.`
-                        ]
-                    }
-                ],
-            },
         ]
     },
     {
@@ -435,6 +419,22 @@ export const triServices = [
                     }
                 ]
             }
+        ]
+    },
+    {
+        id: 'disability-insurance',
+        serviceName: `Disability Insurance`,
+        prevImg: 'https://res.cloudinary.com/daj06anmm/image/upload/v1708901215/disabiltyPrev_t4iafv.jpg',
+        image: 'https://res.cloudinary.com/daj06anmm/image/upload/v1708909419/disability_jxtmii.jpg',
+        blog: [
+            {
+                id: '1',
+                summary: [
+                    {
+                        paragraph: [`How long can you financially survive without a paycheck? If you get sick and can’t work, how will you pay the mortgage or rent, gas, electric and groceries? Disability income protection allows you to safeguard one of your most valuable assets – being able to earn an income – and should be an integral part of your financial portfolio. Let’s make sure that if the unexpected happens, you can still provide for yourself and your family. Click here to schedule a complimentary consultation. Schedule a complimentary consultation today.`],
+                    },
+                ]
+            },
         ]
     },
 ];

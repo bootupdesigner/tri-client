@@ -19,13 +19,14 @@ function Header() {
     return (
         <div>
             {/* phone call and email section with black background and white letters */}
-            <div
+            <div className='contact-icons'
                 style={{
                     display: "flex",
                     flexDirection: "row",
                     justifyContent: "center", 
                     alignItems: "center",
                     gap: 24, 
+                    backgroundColor:"#800000",
                 }}
             >
                 <a
@@ -35,7 +36,7 @@ function Header() {
                         alignItems: "center",
                         gap: 6,
                         textDecoration: "none",
-                        color: "#800000",
+                        color: "white",
                         fontSize: 20,
                     }}
                 >
@@ -50,7 +51,7 @@ function Header() {
                         alignItems: "center",
                         gap: 6,
                         textDecoration: "none",
-                        color: "#800000",
+                        color: "white",
                         fontSize: 20,
                     }}
                 >

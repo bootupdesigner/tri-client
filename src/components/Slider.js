@@ -29,7 +29,7 @@ function Slider() {
                 <Carousel.Item interval={5000}
                     className="slider d-flex align-items-center"
                     style={{
-                        minHeight: 300,
+                        minHeight: "100vh",
                         backgroundImage: `url(${lifeInsurance.image})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
@@ -58,7 +58,7 @@ function Slider() {
                 <Carousel.Item interval={5000}
                     className="slider d-flex align-items-center"
                     style={{
-                        minHeight: 300,
+                        minHeight: "100vh",
                         backgroundImage: `url(${rollOvers.image})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
@@ -87,7 +87,7 @@ function Slider() {
                 <Carousel.Item interval={5000}
                     className="slider d-flex align-items-center"
                     style={{
-                        minHeight: 300,
+                        minHeight: "100vh",
                         backgroundImage: `url(${retirementPlanning.image})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
