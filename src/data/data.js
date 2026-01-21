@@ -96,7 +96,7 @@ export const triServices = [
     {
         id: 'life-insurance',
         serviceName: 'Life Insurance',
-        prevImg: 'https://res.cloudinary.com/daj06anmm/image/upload/v1708907135/life-insurance-prev_wigwyi.jpg',
+        prevImg: 'https://images.pexels.com/photos/4262413/pexels-photo-4262413.jpeg',
         image: 'https://res.cloudinary.com/daj06anmm/image/upload/v1708909419/life-insurance_hh1rwg.jpg',
         blog: [
             {
