@@ -18,18 +18,32 @@ function Footer() {
                 <span><Link href="/join-our-team">Join Our Team</Link></span>
             </div>
 
-            {/* hours and location nav */}
+            {/* hours of Operation */}
 
             <div className='footerNav'>
                 <h3>Hours & Location</h3>
                 <span>Laurel, Maryland 20724</span>
                 <span>Monday - Friday: 9:00am - 9:00pm</span>
                 <span>Saturday: 9:00am - 12:00pm</span>
-                <span style={{color:'red',}}>Sunday: Closed</span>
+                <span style={{ color: 'red', }}>Sunday: Closed</span>
                 <span><a href="tel:+1-410-880-4680">Call: (410)880-4680</a></span>
                 <span><a href="mailto:trifinancialservices@gmail.com">Email: trifinancialservices@gmail.com</a></span>
             </div>
 
+            {/* Service Area and Location */}
+            <div className='footerNav'>
+                <h3>Service Area</h3>
+               <span>Laurel, MD, USA</span>
+               <span>Bowie, MD, USA</span>
+               <span>Columbia, MD, USA</span>
+               <span>Woodlawn, MD, USA</span>
+               <span>Baltimore, MD, USA</span>
+               <span>Greenbelt, MD, USA</span>
+               <span>Beltsville, MD, USA</span>
+               <span>Randallstown, MD, USA</span>
+               <span>Windsor Mill, Waldorf, MD, USA</span>
+               <span>Windsor Mill Milford, MD, USA</span>
+               </div>
             {/* social media nav */}
 
             <div className='footerNav'>
